@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EB37C32FABC47AB03D37FE7 /* Pods_AquBuyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47B1805966BC00BF553ADE9 /* Pods_AquBuyUITests.framework */; };
+		9314BB5D2035CF0E00F2B96C /* DataTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9314BB5C2035CF0E00F2B96C /* DataTestViewController.m */; };
+		9314BB602035D08C00F2B96C /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 9314BB5F2035D08C00F2B96C /* Model.m */; };
+		93202F8C20509C7A00656873 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93202F8B20509C7A00656873 /* ItemDetailViewController.m */; };
+		93272C49203CB53700E9D637 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93272C48203CB53700E9D637 /* MobileCoreServices.framework */; };
+		93272C4B203CB9E200E9D637 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93272C4A203CB9E200E9D637 /* CoreLocation.framework */; };
+		9332D83B2050C980006DA0D2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9332D83A2050C980006DA0D2 /* MessageUI.framework */; };
+		9376E07C2010012E00564E35 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376E07B2010012E00564E35 /* UserProfileViewController.m */; };
+		9376E07F2010016800564E35 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376E07E2010016800564E35 /* FeedViewController.m */; };
+		9376E0822010018000564E35 /* FavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376E0812010018000564E35 /* FavouritesViewController.m */; };
+		9376E085201001AE00564E35 /* BrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376E084201001AE00564E35 /* BrowseViewController.m */; };
+		9376E088201010A300564E35 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376E087201010A300564E35 /* NavigationController.m */; };
+		9392D94A203CF2B500BC6E01 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392D949203CF2B500BC6E01 /* TestTableViewCell.m */; };
+		93A2ACF4203A28B000D92F94 /* AddListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A2ACF3203A28B000D92F94 /* AddListingViewController.m */; };
+		93A63CDE200D1D2D0016D376 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A63CDD200D1D2D0016D376 /* AppDelegate.m */; };
+		93A63CE7200D1D2D0016D376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A63CE5200D1D2D0016D376 /* Main.storyboard */; };
+		93A63CE9200D1D2D0016D376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A63CE8200D1D2D0016D376 /* Assets.xcassets */; };
+		93A63CEC200D1D2D0016D376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A63CEA200D1D2D0016D376 /* LaunchScreen.storyboard */; };
+		93A63CEF200D1D2D0016D376 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A63CEE200D1D2D0016D376 /* main.m */; };
+		93A63CF9200D1D2D0016D376 /* AquBuyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A63CF8200D1D2D0016D376 /* AquBuyTests.m */; };
+		93A63D04200D1D2D0016D376 /* AquBuyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A63D03200D1D2D0016D376 /* AquBuyUITests.m */; };
+		93A7998F202A0A0400096D72 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A7998E202A0A0400096D72 /* FirstViewController.m */; };
+		93A79991202A100000096D72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A79990202A100000096D72 /* QuartzCore.framework */; };
+		93D66CAA20559D73008E269A /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D66CA920559D73008E269A /* PaymentViewController.m */; };
+		93D66CAC2055A8E2008E269A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D66CAB2055A8E2008E269A /* WebKit.framework */; };
+		C799EE10C037EE9974DF5298 /* Pods_AquBuy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3578F2DEA7EB2C40A77AC54E /* Pods_AquBuy.framework */; };
+		CB5AC22B13871801ECF899D6 /* Pods_AquBuyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5F40B49D3EB3F2574C7CA3 /* Pods_AquBuyTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93A63CF5200D1D2D0016D376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93A63CD1200D1D2C0016D376 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93A63CD8200D1D2D0016D376;
+			remoteInfo = AquBuy;
+		};
+		93A63D00200D1D2D0016D376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93A63CD1200D1D2C0016D376 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93A63CD8200D1D2D0016D376;
+			remoteInfo = AquBuy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26BC2537DF9C6C1C54B302A3 /* Pods-AquBuy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AquBuy.release.xcconfig"; path = "Pods/Target Support Files/Pods-AquBuy/Pods-AquBuy.release.xcconfig"; sourceTree = "<group>"; };
+		3578F2DEA7EB2C40A77AC54E /* Pods_AquBuy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AquBuy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A35B5B9918D60C995098B47 /* Pods-AquBuyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AquBuyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AquBuyTests/Pods-AquBuyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AE5FD303B4C678A8A12D84B /* Pods-AquBuyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AquBuyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AquBuyUITests/Pods-AquBuyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7462D4D66B800EDCAA3B058B /* Pods-AquBuy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AquBuy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AquBuy/Pods-AquBuy.debug.xcconfig"; sourceTree = "<group>"; };
+		9314BB5B2035CF0E00F2B96C /* DataTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataTestViewController.h; sourceTree = "<group>"; };
+		9314BB5C2035CF0E00F2B96C /* DataTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataTestViewController.m; sourceTree = "<group>"; };
+		9314BB5E2035D08C00F2B96C /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		9314BB5F2035D08C00F2B96C /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		93202F8A20509C7A00656873 /* ItemDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		93202F8B20509C7A00656873 /* ItemDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		93272C48203CB53700E9D637 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		93272C4A203CB9E200E9D637 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9332D83A2050C980006DA0D2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		936D11C4204DC29900E560DC /* hibuy */ = {isa = PBXFileReference; lastKnownFileType = folder; name = hibuy; path = ../../Sites/hibuy; sourceTree = "<group>"; };
+		9376E07A2010012E00564E35 /* UserProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserProfileViewController.h; sourceTree = "<group>"; };
+		9376E07B2010012E00564E35 /* UserProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
+		9376E07D2010016800564E35 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		9376E07E2010016800564E35 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		9376E0802010018000564E35 /* FavouritesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavouritesViewController.h; sourceTree = "<group>"; };
+		9376E0812010018000564E35 /* FavouritesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavouritesViewController.m; sourceTree = "<group>"; };
+		9376E083201001AE00564E35 /* BrowseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowseViewController.h; sourceTree = "<group>"; };
+		9376E084201001AE00564E35 /* BrowseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseViewController.m; sourceTree = "<group>"; };
+		9376E086201010A300564E35 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		9376E087201010A300564E35 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		9392D948203CF2B500BC6E01 /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		9392D949203CF2B500BC6E01 /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		93A2ACF2203A28B000D92F94 /* AddListingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddListingViewController.h; sourceTree = "<group>"; };
+		93A2ACF3203A28B000D92F94 /* AddListingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddListingViewController.m; sourceTree = "<group>"; };
+		93A63CD9200D1D2D0016D376 /* AquBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A63CDC200D1D2D0016D376 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93A63CDD200D1D2D0016D376 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93A63CE6200D1D2D0016D376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93A63CE8200D1D2D0016D376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93A63CEB200D1D2D0016D376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93A63CED200D1D2D0016D376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A63CEE200D1D2D0016D376 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93A63CF4200D1D2D0016D376 /* AquBuyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquBuyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A63CF8200D1D2D0016D376 /* AquBuyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AquBuyTests.m; sourceTree = "<group>"; };
+		93A63CFA200D1D2D0016D376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A63CFF200D1D2D0016D376 /* AquBuyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquBuyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A63D03200D1D2D0016D376 /* AquBuyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AquBuyUITests.m; sourceTree = "<group>"; };
+		93A63D05200D1D2D0016D376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A7998D202A0A0400096D72 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		93A7998E202A0A0400096D72 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		93A79990202A100000096D72 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		93D66CA820559D73008E269A /* PaymentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		93D66CA920559D73008E269A /* PaymentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		93D66CAB2055A8E2008E269A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9F5F40B49D3EB3F2574C7CA3 /* Pods_AquBuyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AquBuyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1E54A6B41D44641DF32740 /* Pods-AquBuyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AquBuyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AquBuyUITests/Pods-AquBuyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB10DD734868C402CBD562AF /* Pods-AquBuyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AquBuyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AquBuyTests/Pods-AquBuyTests.release.xcconfig"; sourceTree = "<group>"; };
+		F47B1805966BC00BF553ADE9 /* Pods_AquBuyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AquBuyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93A63CD6200D1D2D0016D376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D66CAC2055A8E2008E269A /* WebKit.framework in Frameworks */,
+				9332D83B2050C980006DA0D2 /* MessageUI.framework in Frameworks */,
+				93272C4B203CB9E200E9D637 /* CoreLocation.framework in Frameworks */,
+				93272C49203CB53700E9D637 /* MobileCoreServices.framework in Frameworks */,
+				93A79991202A100000096D72 /* QuartzCore.framework in Frameworks */,
+				C799EE10C037EE9974DF5298 /* Pods_AquBuy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A63CF1200D1D2D0016D376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5AC22B13871801ECF899D6 /* Pods_AquBuyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A63CFC200D1D2D0016D376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB37C32FABC47AB03D37FE7 /* Pods_AquBuyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		455595D8B486410A17D78291 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7462D4D66B800EDCAA3B058B /* Pods-AquBuy.debug.xcconfig */,
+				26BC2537DF9C6C1C54B302A3 /* Pods-AquBuy.release.xcconfig */,
+				3A35B5B9918D60C995098B47 /* Pods-AquBuyTests.debug.xcconfig */,
+				EB10DD734868C402CBD562AF /* Pods-AquBuyTests.release.xcconfig */,
+				CD1E54A6B41D44641DF32740 /* Pods-AquBuyUITests.debug.xcconfig */,
+				3AE5FD303B4C678A8A12D84B /* Pods-AquBuyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		610AAD6F17984BCCD26F250A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93D66CAB2055A8E2008E269A /* WebKit.framework */,
+				9332D83A2050C980006DA0D2 /* MessageUI.framework */,
+				93272C4A203CB9E200E9D637 /* CoreLocation.framework */,
+				93272C48203CB53700E9D637 /* MobileCoreServices.framework */,
+				93A79990202A100000096D72 /* QuartzCore.framework */,
+				3578F2DEA7EB2C40A77AC54E /* Pods_AquBuy.framework */,
+				9F5F40B49D3EB3F2574C7CA3 /* Pods_AquBuyTests.framework */,
+				F47B1805966BC00BF553ADE9 /* Pods_AquBuyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93A63CD0200D1D2C0016D376 = {
+			isa = PBXGroup;
+			children = (
+				936D11C4204DC29900E560DC /* hibuy */,
+				93A63CDB200D1D2D0016D376 /* AquBuy */,
+				93A63CF7200D1D2D0016D376 /* AquBuyTests */,
+				93A63D02200D1D2D0016D376 /* AquBuyUITests */,
+				93A63CDA200D1D2D0016D376 /* Products */,
+				455595D8B486410A17D78291 /* Pods */,
+				610AAD6F17984BCCD26F250A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93A63CDA200D1D2D0016D376 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93A63CD9200D1D2D0016D376 /* AquBuy.app */,
+				93A63CF4200D1D2D0016D376 /* AquBuyTests.xctest */,
+				93A63CFF200D1D2D0016D376 /* AquBuyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93A63CDB200D1D2D0016D376 /* AquBuy */ = {
+			isa = PBXGroup;
+			children = (
+				93A63CDC200D1D2D0016D376 /* AppDelegate.h */,
+				93A63CDD200D1D2D0016D376 /* AppDelegate.m */,
+				9314BB5E2035D08C00F2B96C /* Model.h */,
+				9314BB5F2035D08C00F2B96C /* Model.m */,
+				93A7998D202A0A0400096D72 /* FirstViewController.h */,
+				93A7998E202A0A0400096D72 /* FirstViewController.m */,
+				93A2ACF2203A28B000D92F94 /* AddListingViewController.h */,
+				93A2ACF3203A28B000D92F94 /* AddListingViewController.m */,
+				93202F8A20509C7A00656873 /* ItemDetailViewController.h */,
+				93202F8B20509C7A00656873 /* ItemDetailViewController.m */,
+				93D66CA820559D73008E269A /* PaymentViewController.h */,
+				93D66CA920559D73008E269A /* PaymentViewController.m */,
+				9314BB5B2035CF0E00F2B96C /* DataTestViewController.h */,
+				9314BB5C2035CF0E00F2B96C /* DataTestViewController.m */,
+				9392D948203CF2B500BC6E01 /* TestTableViewCell.h */,
+				9392D949203CF2B500BC6E01 /* TestTableViewCell.m */,
+				93A63D11200D3D150016D376 /* Main Tab Classes */,
+				93A63CE5200D1D2D0016D376 /* Main.storyboard */,
+				93A63CE8200D1D2D0016D376 /* Assets.xcassets */,
+				93A63CEA200D1D2D0016D376 /* LaunchScreen.storyboard */,
+				93A63CED200D1D2D0016D376 /* Info.plist */,
+				93A63CEE200D1D2D0016D376 /* main.m */,
+			);
+			path = AquBuy;
+			sourceTree = "<group>";
+		};
+		93A63CF7200D1D2D0016D376 /* AquBuyTests */ = {
+			isa = PBXGroup;
+			children = (
+				93A63CF8200D1D2D0016D376 /* AquBuyTests.m */,
+				93A63CFA200D1D2D0016D376 /* Info.plist */,
+			);
+			path = AquBuyTests;
+			sourceTree = "<group>";
+		};
+		93A63D02200D1D2D0016D376 /* AquBuyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93A63D03200D1D2D0016D376 /* AquBuyUITests.m */,
+				93A63D05200D1D2D0016D376 /* Info.plist */,
+			);
+			path = AquBuyUITests;
+			sourceTree = "<group>";
+		};
+		93A63D11200D3D150016D376 /* Main Tab Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9376E086201010A300564E35 /* NavigationController.h */,
+				9376E087201010A300564E35 /* NavigationController.m */,
+				9376E07A2010012E00564E35 /* UserProfileViewController.h */,
+				9376E07B2010012E00564E35 /* UserProfileViewController.m */,
+				9376E07D2010016800564E35 /* FeedViewController.h */,
+				9376E07E2010016800564E35 /* FeedViewController.m */,
+				9376E0802010018000564E35 /* FavouritesViewController.h */,
+				9376E0812010018000564E35 /* FavouritesViewController.m */,
+				9376E083201001AE00564E35 /* BrowseViewController.h */,
+				9376E084201001AE00564E35 /* BrowseViewController.m */,
+			);
+			path = "Main Tab Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93A63CD8200D1D2D0016D376 /* AquBuy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A63D08200D1D2D0016D376 /* Build configuration list for PBXNativeTarget "AquBuy" */;
+			buildPhases = (
+				0AEE7BB73A05347A6AB3D992 /* [CP] Check Pods Manifest.lock */,
+				93A63CD5200D1D2D0016D376 /* Sources */,
+				93A63CD6200D1D2D0016D376 /* Frameworks */,
+				93A63CD7200D1D2D0016D376 /* Resources */,
+				06FE9A10454138099F7C4B88 /* [CP] Embed Pods Frameworks */,
+				96919E8CE0D94210D10B4AAF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AquBuy;
+			productName = AquBuy;
+			productReference = 93A63CD9200D1D2D0016D376 /* AquBuy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93A63CF3200D1D2D0016D376 /* AquBuyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A63D0B200D1D2D0016D376 /* Build configuration list for PBXNativeTarget "AquBuyTests" */;
+			buildPhases = (
+				5BDB08D683BE99608A74C6B3 /* [CP] Check Pods Manifest.lock */,
+				93A63CF0200D1D2D0016D376 /* Sources */,
+				93A63CF1200D1D2D0016D376 /* Frameworks */,
+				93A63CF2200D1D2D0016D376 /* Resources */,
+				0DC31B8F3359BDA4360DC4E4 /* [CP] Embed Pods Frameworks */,
+				5BEABCCC2A0B0AC0303EC1E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93A63CF6200D1D2D0016D376 /* PBXTargetDependency */,
+			);
+			name = AquBuyTests;
+			productName = AquBuyTests;
+			productReference = 93A63CF4200D1D2D0016D376 /* AquBuyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93A63CFE200D1D2D0016D376 /* AquBuyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A63D0E200D1D2D0016D376 /* Build configuration list for PBXNativeTarget "AquBuyUITests" */;
+			buildPhases = (
+				C4661654C633ACAF3631C6F5 /* [CP] Check Pods Manifest.lock */,
+				93A63CFB200D1D2D0016D376 /* Sources */,
+				93A63CFC200D1D2D0016D376 /* Frameworks */,
+				93A63CFD200D1D2D0016D376 /* Resources */,
+				1FFE56CC8013A165FC33A330 /* [CP] Embed Pods Frameworks */,
+				06E47FB1104FD0404C034685 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93A63D01200D1D2D0016D376 /* PBXTargetDependency */,
+			);
+			name = AquBuyUITests;
+			productName = AquBuyUITests;
+			productReference = 93A63CFF200D1D2D0016D376 /* AquBuyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93A63CD1200D1D2C0016D376 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "MonkeyMoon Apsp";
+				TargetAttributes = {
+					93A63CD8200D1D2D0016D376 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					93A63CF3200D1D2D0016D376 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93A63CD8200D1D2D0016D376;
+					};
+					93A63CFE200D1D2D0016D376 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93A63CD8200D1D2D0016D376;
+					};
+				};
+			};
+			buildConfigurationList = 93A63CD4200D1D2C0016D376 /* Build configuration list for PBXProject "AquBuy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93A63CD0200D1D2C0016D376;
+			productRefGroup = 93A63CDA200D1D2D0016D376 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93A63CD8200D1D2D0016D376 /* AquBuy */,
+				93A63CF3200D1D2D0016D376 /* AquBuyTests */,
+				93A63CFE200D1D2D0016D376 /* AquBuyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93A63CD7200D1D2D0016D376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A63CEC200D1D2D0016D376 /* LaunchScreen.storyboard in Resources */,
+				93A63CE9200D1D2D0016D376 /* Assets.xcassets in Resources */,
+				93A63CE7200D1D2D0016D376 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A63CF2200D1D2D0016D376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A63CFD200D1D2D0016D376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06E47FB1104FD0404C034685 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AquBuyUITests/Pods-AquBuyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06FE9A10454138099F7C4B88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AquBuy/Pods-AquBuy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DownPicker/DownPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DownPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AquBuy/Pods-AquBuy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AEE7BB73A05347A6AB3D992 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AquBuy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DC31B8F3359BDA4360DC4E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AquBuyTests/Pods-AquBuyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FFE56CC8013A165FC33A330 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AquBuyUITests/Pods-AquBuyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BDB08D683BE99608A74C6B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AquBuyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BEABCCC2A0B0AC0303EC1E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AquBuyTests/Pods-AquBuyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96919E8CE0D94210D10B4AAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AquBuy/Pods-AquBuy-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DownPicker/DownPicker.bundle",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DownPicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AquBuy/Pods-AquBuy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4661654C633ACAF3631C6F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AquBuyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93A63CD5200D1D2D0016D376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9376E0822010018000564E35 /* FavouritesViewController.m in Sources */,
+				9392D94A203CF2B500BC6E01 /* TestTableViewCell.m in Sources */,
+				9314BB5D2035CF0E00F2B96C /* DataTestViewController.m in Sources */,
+				9376E07C2010012E00564E35 /* UserProfileViewController.m in Sources */,
+				93A63CDE200D1D2D0016D376 /* AppDelegate.m in Sources */,
+				93D66CAA20559D73008E269A /* PaymentViewController.m in Sources */,
+				93A2ACF4203A28B000D92F94 /* AddListingViewController.m in Sources */,
+				9376E07F2010016800564E35 /* FeedViewController.m in Sources */,
+				9376E085201001AE00564E35 /* BrowseViewController.m in Sources */,
+				93A63CEF200D1D2D0016D376 /* main.m in Sources */,
+				9376E088201010A300564E35 /* NavigationController.m in Sources */,
+				93202F8C20509C7A00656873 /* ItemDetailViewController.m in Sources */,
+				93A7998F202A0A0400096D72 /* FirstViewController.m in Sources */,
+				9314BB602035D08C00F2B96C /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A63CF0200D1D2D0016D376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A63CF9200D1D2D0016D376 /* AquBuyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A63CFB200D1D2D0016D376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A63D04200D1D2D0016D376 /* AquBuyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93A63CF6200D1D2D0016D376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93A63CD8200D1D2D0016D376 /* AquBuy */;
+			targetProxy = 93A63CF5200D1D2D0016D376 /* PBXContainerItemProxy */;
+		};
+		93A63D01200D1D2D0016D376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93A63CD8200D1D2D0016D376 /* AquBuy */;
+			targetProxy = 93A63D00200D1D2D0016D376 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93A63CE5200D1D2D0016D376 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93A63CE6200D1D2D0016D376 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93A63CEA200D1D2D0016D376 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93A63CEB200D1D2D0016D376 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93A63D06200D1D2D0016D376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93A63D07200D1D2D0016D376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93A63D09200D1D2D0016D376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7462D4D66B800EDCAA3B058B /* Pods-AquBuy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5YTS8P72L;
+				INFOPLIST_FILE = AquBuy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkeymoonapps.HiBuy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		93A63D0A200D1D2D0016D376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26BC2537DF9C6C1C54B302A3 /* Pods-AquBuy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5YTS8P72L;
+				INFOPLIST_FILE = AquBuy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkeymoonapps.HiBuy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		93A63D0C200D1D2D0016D376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A35B5B9918D60C995098B47 /* Pods-AquBuyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5YTS8P72L;
+				INFOPLIST_FILE = AquBuyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkeymoonapps.AquBuyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AquBuy.app/AquBuy";
+			};
+			name = Debug;
+		};
+		93A63D0D200D1D2D0016D376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB10DD734868C402CBD562AF /* Pods-AquBuyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5YTS8P72L;
+				INFOPLIST_FILE = AquBuyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkeymoonapps.AquBuyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AquBuy.app/AquBuy";
+			};
+			name = Release;
+		};
+		93A63D0F200D1D2D0016D376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1E54A6B41D44641DF32740 /* Pods-AquBuyUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5YTS8P72L;
+				INFOPLIST_FILE = AquBuyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkeymoonapps.AquBuyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AquBuy;
+			};
+			name = Debug;
+		};
+		93A63D10200D1D2D0016D376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE5FD303B4C678A8A12D84B /* Pods-AquBuyUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5YTS8P72L;
+				INFOPLIST_FILE = AquBuyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkeymoonapps.AquBuyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AquBuy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93A63CD4200D1D2C0016D376 /* Build configuration list for PBXProject "AquBuy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A63D06200D1D2D0016D376 /* Debug */,
+				93A63D07200D1D2D0016D376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A63D08200D1D2D0016D376 /* Build configuration list for PBXNativeTarget "AquBuy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A63D09200D1D2D0016D376 /* Debug */,
+				93A63D0A200D1D2D0016D376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A63D0B200D1D2D0016D376 /* Build configuration list for PBXNativeTarget "AquBuyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A63D0C200D1D2D0016D376 /* Debug */,
+				93A63D0D200D1D2D0016D376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A63D0E200D1D2D0016D376 /* Build configuration list for PBXNativeTarget "AquBuyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A63D0F200D1D2D0016D376 /* Debug */,
+				93A63D10200D1D2D0016D376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93A63CD1200D1D2C0016D376 /* Project object */;
+}

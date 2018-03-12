@@ -1,0 +1,6 @@
+framework module Pods_AquBuy {
+  umbrella header "Pods-AquBuy-umbrella.h"
+
+  export *
+  module * { export * }
+}
